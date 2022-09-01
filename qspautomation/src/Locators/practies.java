@@ -14,6 +14,7 @@ public class practies {
 		driver.findElement(By.cssSelector("input[id='txtUsername']")).sendKeys("Admin");
 		driver.findElement(By.cssSelector("input[id='txtPassword']")).sendKeys("admin123");
 		driver.findElement(By.cssSelector("input[id='btnLogin']")).click();
+		System.out.println("vaibhav");
 
 
 	}
